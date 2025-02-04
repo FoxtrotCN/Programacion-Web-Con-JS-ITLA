@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Registro Club de natación</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    
+    <header>
+        
+        <h1>Registro Club de natación</h1>
+        <p style="color: #2A5D84">¡Bienvenido a nuestro formulario de natación! Estamos emocionados de tenerte con nosotros.</p>
+        <p>Completa el formulario para univerte !!!</p>
+        
+    </header>
+    
+    <div class="form-container">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" required>
+        
+        <label for="edad"> Edad: </label>
+        <input type="number" id="Edad" required>
+        <label for="horario">Seleccione un Horario</label>
+        <select name="horario" id="horario">
+            <option value="matutino">Matutino</option>
+            <option value="nocturno">Nocturno</option>
+        
+        </select>
+        <br>
+        <label for="nivel" class="nivel-label">Seleccione su nivel</label>
+        <select name="nivel" id="nivel">
+            <option value="principiante">Principiante</option>
+            <option value="intermedio">Intermedio</option>
+            <option value="avanzado">Avanzado</option>
+        </select>
+        <button type="submit"> Registrarse</button>
+    
+    </div>
+
+
+
+</body>
+
+</html>

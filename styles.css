@@ -1,0 +1,19 @@
+h1{
+    color: blue;
+    text-align: center;
+}
+
+p{
+    color: blue;
+    text-align: center;
+}
+
+.form-container {
+    width: 50%;
+    margin: auto;
+    background-color: #F5F5DC;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+    font-family: Verdana, serif;
+}
